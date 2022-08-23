@@ -1,0 +1,14 @@
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\bin\Debug\net6.0\BestCodder.DataAccess.deps.json
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\bin\Debug\net6.0\BestCodder.DataAccess.runtimeconfig.json
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\bin\Debug\net6.0\BestCodder.DataAccess.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\bin\Debug\net6.0\BestCodder.DataAccess.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.csproj.AssemblyReference.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.AssemblyInfoInputs.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.AssemblyInfo.cs
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\refint\BestCodder.DataAccess.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\BestCodder.DataAccess.genruntimeconfig.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.DataAccess\obj\Debug\net6.0\ref\BestCodder.DataAccess.dll

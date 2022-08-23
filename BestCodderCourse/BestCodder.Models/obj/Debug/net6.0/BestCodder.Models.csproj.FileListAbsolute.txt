@@ -1,0 +1,12 @@
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\bin\Debug\net6.0\BestCodder.Models.deps.json
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\bin\Debug\net6.0\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\bin\Debug\net6.0\BestCodder.Models.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.csproj.AssemblyReference.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.AssemblyInfoInputs.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.AssemblyInfo.cs
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.csproj.CoreCompileInputs.cache
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\refint\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\BestCodder.Models.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Models\obj\Debug\net6.0\ref\BestCodder.Models.dll
