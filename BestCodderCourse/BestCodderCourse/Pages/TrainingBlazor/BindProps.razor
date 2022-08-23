@@ -1,0 +1,55 @@
+﻿@page "/bindprops"
+
+
+<PageTitle>Index</PageTitle>
+
+@* <h1>Hello, world!</h1> *@
+@* *@
+@* Welcome to your new app. *@
+@* *@
+@* <SurveyPrompt Title="How is Blazor working for you?"/> *@
+
+Course => @course.CourseName
+<br/>
+Price: @course.Price
+<br/>
+<input type="number" @bind-value="@course.Price" @bind-value:event="oninput"/>
+<br/>
+<input type="checkbox" @bind-value="@course.IsActive" checked="@(course.IsActive?"checked":null)"/> Is Active
+<br/>
+<span> This Course is @(course.IsActive?"Active":"Inactive")</span>
+<br/>
+
+<select @bind="defaultSelectValue">
+    @foreach (var drop in drops)
+    {
+        <option value="@drop.Name">@drop.Name</option>
+    }
+</select>
+<br/>
+<span>Name of Selected Course is @defaultSelectValue</span>
+<br/>
+
+
+
+
+
+@code{
+    string defaultSelectValue = "";
+    List<DropdownProps> drops = new List<DropdownProps>()
+    {
+        new DropdownProps{Id = 1,Name = "E-commerce",Value = "30"},
+        new DropdownProps{Id = 2,Name = "Microservice",Value = "40"},
+        new DropdownProps{Id = 3,Name = "Social Media",Value = "50"},
+        new DropdownProps{Id = 4,Name = "Dependency Injection",Value = "60"},
+    };
+
+    Models.CourseTraining course = new()
+    {
+        Id = 1,
+        CourseName = "Blazor e-commerce",
+        IsActive = true,
+        Price = 100,
+    };
+
+}

@@ -31,6 +31,42 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/BindProps.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcQmluZFByb3BzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/ParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcUGFyZW50Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/AttributeChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcQXR0cmlidXRlQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/ChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/CounterParentComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcQ291bnRlclBhcmVudENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/EditDeleteButtonComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcRWRpdERlbGV0ZUJ1dHRvbkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/GrandChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcR3JhbmRDaGlsZENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcTGlmZWN5Y2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/LifecycleChildComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhaW5pbmdCbGF6b3JcVHJhaW5pbmdCbGF6b3JDb21wb25lbnRcTGlmZWN5Y2xlQ2hpbGRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects/2022/BlazorProject/BestCodderCourse/BestCodderCourse/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

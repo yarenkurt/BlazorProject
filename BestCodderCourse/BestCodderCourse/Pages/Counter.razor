@@ -1,4 +1,4 @@
-﻿@page "/counter"
+﻿
 
 <PageTitle>Counter</PageTitle>
 
@@ -9,11 +9,14 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
+    [Parameter]
+    public EventCallback<int> SetCurrentCount { get; set; }
     private int currentCount = 0;
 
     private void IncrementCount()
     {
         currentCount++;
+        SetCurrentCount.InvokeAsync(currentCount);
     }
 
 }
