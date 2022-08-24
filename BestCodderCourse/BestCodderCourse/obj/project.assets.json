@@ -790,6 +790,33 @@
           }
         }
       },
+      "BestCodder.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "BestCodder.Common": "1.0.0",
+          "BestCodder.DataAccess": "1.0.0",
+          "BestCodder.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BestCodder.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestCodder.Business.dll": {}
+        }
+      },
+      "BestCodder.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BestCodder.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestCodder.Common.dll": {}
+        }
+      },
       "BestCodder.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -801,6 +828,16 @@
         },
         "runtime": {
           "bin/placeholder/BestCodder.DataAccess.dll": {}
+        }
+      },
+      "BestCodder.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BestCodder.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BestCodder.Models.dll": {}
         }
       }
     }
@@ -2322,17 +2359,34 @@
         "version.txt"
       ]
     },
+    "BestCodder.Business/1.0.0": {
+      "type": "project",
+      "path": "../BestCodder.Business/BestCodder.Business.csproj",
+      "msbuildProject": "../BestCodder.Business/BestCodder.Business.csproj"
+    },
+    "BestCodder.Common/1.0.0": {
+      "type": "project",
+      "path": "../BestCodder.Common/BestCodder.Common.csproj",
+      "msbuildProject": "../BestCodder.Common/BestCodder.Common.csproj"
+    },
     "BestCodder.DataAccess/1.0.0": {
       "type": "project",
       "path": "../BestCodder.DataAccess/BestCodder.DataAccess.csproj",
       "msbuildProject": "../BestCodder.DataAccess/BestCodder.DataAccess.csproj"
+    },
+    "BestCodder.Models/1.0.0": {
+      "type": "project",
+      "path": "../BestCodder.Models/BestCodder.Models.csproj",
+      "msbuildProject": "../BestCodder.Models/BestCodder.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "BestCodder.Business >= 1.0.0",
       "BestCodder.DataAccess >= 1.0.0",
+      "BestCodder.Models >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 6.0.5",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.5",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.5",
@@ -2367,8 +2421,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj": {
+              "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj"
+            },
             "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj": {
               "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj"
+            },
+            "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj": {
+              "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj"
             }
           }
         }

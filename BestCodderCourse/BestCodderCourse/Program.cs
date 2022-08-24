@@ -1,3 +1,5 @@
+using BestCodder.Business.Contracts;
+using BestCodder.Business.Implementation;
 using BestCodder.DataAccess.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -20,6 +22,7 @@ builder.Services
     .AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddScoped<ICourseRepository,CourseRepository>();
 
 var app = builder.Build();
 

@@ -72,3 +72,11 @@ D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.DataAccess.dll
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.DataAccess.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\AutoMapper.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Models.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Business.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Common.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Business.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodderCourse\bin\Debug\net6.0\BestCodder.Common.pdb

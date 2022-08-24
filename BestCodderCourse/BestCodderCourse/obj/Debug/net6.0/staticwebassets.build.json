@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2xY32JmbpHF3t8KuhZySlV+o28XrOFvVX7W8j06nSVg=",
+  "Hash": "L51A5vmz5IqjBsOH8aaoSwe1xCneUxZzNDX7ZgcaeTo=",
   "Source": "BestCodderCourse",
   "BasePath": "_content/BestCodderCourse",
   "Mode": "Default",
@@ -1290,6 +1290,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodderCourse\\wwwroot\\js\\common.js",
+      "SourceId": "BestCodderCourse",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodderCourse\\wwwroot\\",
+      "BasePath": "_content/BestCodderCourse",
+      "RelativePath": "js/common.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\common.js"
     }
   ]
 }

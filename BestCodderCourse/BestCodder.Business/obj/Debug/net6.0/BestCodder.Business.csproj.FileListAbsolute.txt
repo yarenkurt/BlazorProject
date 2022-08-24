@@ -10,3 +10,10 @@ D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\obj\Debug\ne
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\obj\Debug\net6.0\refint\BestCodder.Business.dll
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\obj\Debug\net6.0\BestCodder.Business.pdb
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\obj\Debug\net6.0\ref\BestCodder.Business.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.Common.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.DataAccess.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.Common.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.DataAccess.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\bin\Debug\net6.0\BestCodder.Models.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Business\obj\Debug\net6.0\BestCodder.Business.csproj.CopyComplete

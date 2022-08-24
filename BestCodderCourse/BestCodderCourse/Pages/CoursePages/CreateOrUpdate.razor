@@ -1,0 +1,101 @@
+﻿@page "/createorupdate"
+@page "/edit/{Id:int}"
+
+@using BestCodder.Models
+@using BestCodder.Business.Contracts
+@inject ICourseRepository _courseRepository
+@inject NavigationManager _navigationManager
+@inject IJSRuntime _jsRuntime
+
+<h4>Course Added</h4>
+<div class="col-md-12">
+    <div class="card">
+        <div class="card-body">
+            <EditForm Model="courseModel" OnValidSubmit="CourseCreateOrUpdate">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <div class="form-group">
+                    <label>Name</label>
+                    <InputText @bind-Value="courseModel.Name" class="form-control"></InputText>
+                    <ValidationMessage For="() => courseModel.Name"></ValidationMessage>
+                </div>
+                <div class="form-group mt-2">
+                    <label>CoursePrice</label>
+                    <InputNumber @bind-Value="courseModel.CoursePrice" class="form-control"></InputNumber>
+                    <ValidationMessage For="() => courseModel.CoursePrice"></ValidationMessage>
+                </div>
+                <div class="form-group mt-2">
+                    <label>Description</label>
+                    <InputTextArea @bind-Value="courseModel.Description" class="form-control"></InputTextArea>
+                    <ValidationMessage For="() => courseModel.Description"></ValidationMessage>
+                </div>
+                <div class="form-group mt-2">
+                    <label>Title</label>
+                    <InputText @bind-Value="courseModel.Title" class="form-control"></InputText>
+                    <ValidationMessage For="() => courseModel.Title"></ValidationMessage>
+                </div>
+                <div class="form-group mt-2">
+                    <label>SubTitle</label>
+                    <InputText @bind-Value="courseModel.SubTitle" class="form-control"></InputText>
+                    <ValidationMessage For="() => courseModel.SubTitle"></ValidationMessage>
+
+                </div>
+                <div class="form-group mt-2">
+                    <button class="btn btn-success">Course Add</button>
+                    <NavLink href="courseList" class="btn btn-danger">Back To Course List</NavLink>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public int? Id { get; set; }
+
+    private string Title { get; set; }
+
+    private CourseDto courseModel { get; set; } = new CourseDto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id != null)
+        {
+            Title = "Update";
+            var data = await _courseRepository.GetCourse((int)Id);
+            courseModel = data.Data;
+        }
+        else
+        {
+    //create
+        }
+    }
+
+    private async Task CourseCreateOrUpdate()
+    {
+        try
+        {
+            if (Id != null)
+            {
+                var updated = await _courseRepository.UpdateCourse((int)Id, courseModel);
+                if (updated.IsSuccess)
+                    await _jsRuntime.ToastrSuccess(updated.Message);
+                else
+                    await _jsRuntime.ToastrError(updated.Message);
+            }
+            else
+            {
+                var created = await _courseRepository.CreateCourse(courseModel);
+                if (created.IsSuccess)
+                    await _jsRuntime.ToastrSuccess(created.Message);
+                else
+                    await _jsRuntime.ToastrError(created.Message);
+            }
+        }
+        catch (Exception ex)
+        {
+            await _jsRuntime.ToastrError(ex.Message.ToString());
+        }
+    }
+
+}
