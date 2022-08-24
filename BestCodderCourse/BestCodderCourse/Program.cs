@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using BestCodderCourse.Areas.Identity;
 using BestCodderCourse.Data;
+using BestCodderCourse.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,7 @@ builder.Services
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ICourseRepository,CourseRepository>();
+builder.Services.AddScoped<IFileUpload, FileUpload>();
 
 var app = builder.Build();
 

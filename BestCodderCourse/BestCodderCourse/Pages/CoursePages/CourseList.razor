@@ -69,7 +69,7 @@
 
 @code{
     private IEnumerable<CourseDto> CourseModelList { get; set; } = new List<CourseDto>();
-    public string ErrorMessage { get; set; }
+    private string? ErrorMessage { get; set; }
 
     protected override async Task OnInitializedAsync()
     {

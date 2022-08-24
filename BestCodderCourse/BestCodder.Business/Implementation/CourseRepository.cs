@@ -54,6 +54,33 @@ public class CourseRepository : ICourseRepository
         }
     }
 
+    public async Task<Result<CourseDto>> UpdateCourseImage(int courseId, string imagePath)
+    {
+        try
+        {
+            if (courseId > 0)
+            {
+                var courseDetails = await _ctx.Courses.FindAsync(courseId);
+               
+                courseDetails.UpdatedBy = "Best Codder";
+                courseDetails.UpdatedDate = DateTime.Now;
+                courseDetails.ImageUrl = imagePath;
+                var updateCourse = _ctx.Courses.Update(courseDetails);
+                await _ctx.SaveChangesAsync();
+                var returnData = _mapper.Map<Course, CourseDto>(updateCourse.Entity);
+                return new Result<CourseDto>(true, ResultConstant.RecordUpdatedSuccessfully, returnData);
+            }
+            else
+            {
+                return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+            }
+        }
+        catch (Exception e)
+        {
+            return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+        }
+    }
+
     public async Task<Result<CourseDto>> GetCourse(int courseId)
     {
         try

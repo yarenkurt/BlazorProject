@@ -3,42 +3,51 @@
 
 @using BestCodder.Models
 @using BestCodder.Business.Contracts
+@using BestCodderCourse.Service
 @inject ICourseRepository _courseRepository
 @inject NavigationManager _navigationManager
 @inject IJSRuntime _jsRuntime
+@inject IFileUpload _fileupload
 
 <h4>Course Added</h4>
 <div class="col-md-12">
     <div class="card">
         <div class="card-body">
-            <EditForm Model="courseModel" OnValidSubmit="CourseCreateOrUpdate">
+            <EditForm Model="CourseModel" OnValidSubmit="CourseCreateOrUpdate">
                 <DataAnnotationsValidator></DataAnnotationsValidator>
                 <div class="form-group">
                     <label>Name</label>
-                    <InputText @bind-Value="courseModel.Name" class="form-control"></InputText>
-                    <ValidationMessage For="() => courseModel.Name"></ValidationMessage>
+                    <InputText @bind-Value="CourseModel.Name" class="form-control"></InputText>
+                    <ValidationMessage For="() => CourseModel.Name"></ValidationMessage>
                 </div>
                 <div class="form-group mt-2">
                     <label>CoursePrice</label>
-                    <InputNumber @bind-Value="courseModel.CoursePrice" class="form-control"></InputNumber>
-                    <ValidationMessage For="() => courseModel.CoursePrice"></ValidationMessage>
+                    <InputNumber @bind-Value="CourseModel.CoursePrice" class="form-control"></InputNumber>
+                    <ValidationMessage For="() => CourseModel.CoursePrice"></ValidationMessage>
                 </div>
                 <div class="form-group mt-2">
                     <label>Description</label>
-                    <InputTextArea @bind-Value="courseModel.Description" class="form-control"></InputTextArea>
-                    <ValidationMessage For="() => courseModel.Description"></ValidationMessage>
+                    <InputTextArea @bind-Value="CourseModel.Description" class="form-control"></InputTextArea>
+                    <ValidationMessage For="() => CourseModel.Description"></ValidationMessage>
                 </div>
                 <div class="form-group mt-2">
                     <label>Title</label>
-                    <InputText @bind-Value="courseModel.Title" class="form-control"></InputText>
-                    <ValidationMessage For="() => courseModel.Title"></ValidationMessage>
+                    <InputText @bind-Value="CourseModel.Title" class="form-control"></InputText>
+                    <ValidationMessage For="() => CourseModel.Title"></ValidationMessage>
                 </div>
                 <div class="form-group mt-2">
                     <label>SubTitle</label>
-                    <InputText @bind-Value="courseModel.SubTitle" class="form-control"></InputText>
-                    <ValidationMessage For="() => courseModel.SubTitle"></ValidationMessage>
+                    <InputText @bind-Value="CourseModel.SubTitle" class="form-control"></InputText>
+                    <ValidationMessage For="() => CourseModel.SubTitle"></ValidationMessage>
 
                 </div>
+                @if (Id > 0)
+                {
+                    <div class="form-group mt-2">
+                        <InputFile OnChange="AddPicture"></InputFile>
+                    </div>
+                }
+                
                 <div class="form-group mt-2">
                     <button class="btn btn-success">Course Add</button>
                     <NavLink href="courseList" class="btn btn-danger">Back To Course List</NavLink>
@@ -53,9 +62,9 @@
     [Parameter]
     public int? Id { get; set; }
 
-    private string Title { get; set; }
+    private string? Title { get; set; }
 
-    private CourseDto courseModel { get; set; } = new CourseDto();
+    private CourseDto CourseModel { get; set; } = new CourseDto();
 
     protected override async Task OnInitializedAsync()
     {
@@ -63,11 +72,11 @@
         {
             Title = "Update";
             var data = await _courseRepository.GetCourse((int)Id);
-            courseModel = data.Data;
+            CourseModel = data.Data;
         }
         else
         {
-    //create
+           //create
         }
     }
 
@@ -77,7 +86,7 @@
         {
             if (Id != null)
             {
-                var updated = await _courseRepository.UpdateCourse((int)Id, courseModel);
+                var updated = await _courseRepository.UpdateCourse((int)Id, CourseModel);
                 if (updated.IsSuccess)
                     await _jsRuntime.ToastrSuccess(updated.Message);
                 else
@@ -85,7 +94,7 @@
             }
             else
             {
-                var created = await _courseRepository.CreateCourse(courseModel);
+                var created = await _courseRepository.CreateCourse(CourseModel);
                 if (created.IsSuccess)
                     await _jsRuntime.ToastrSuccess(created.Message);
                 else
@@ -97,5 +106,20 @@
             await _jsRuntime.ToastrError(ex.Message.ToString());
         }
     }
+
+    private async Task AddPicture(InputFileChangeEventArgs file)
+    {
+        var fileName = file.File;
+        if (fileName != null)
+        {
+            var data = await _fileupload.UploadFile(fileName);
+            var updateCourse = await _courseRepository.UpdateCourseImage((int)Id, data);
+            if (updateCourse.IsSuccess)
+                await _jsRuntime.ToastrSuccess(updateCourse.Message);
+            else
+                await _jsRuntime.ToastrError(updateCourse.Message);
+        }
+    }
+    
 
 }

@@ -24,9 +24,9 @@
     public string? Title { get; set; }
 
     [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    public RenderFragment ChildContent { get; set; } = null!;
 
     [Parameter]
-    public RenderFragment Child2Content { get; set; }
+    public RenderFragment Child2Content { get; set; } = null!;
 
 }

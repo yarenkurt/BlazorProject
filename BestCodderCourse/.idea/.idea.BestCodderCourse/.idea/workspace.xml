@@ -6,69 +6,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff041e-6aa1-48d9-8dc0-8b7303570298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Helper/IJSRuntimeExtention.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CourseList.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CreateOrUpdate.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/AutoMapper.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/wwwroot/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Models/PageItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/Pagination.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/RadzenDataGridCourseList.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/RoutingComponent.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Service/FileUpload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Service/IFileUpload.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Radzen.Blazor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Linq.Dynamic.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/wwwroot/CourseImages/4e948b05-9a65-4877-88bc-6b36a4695805.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/wwwroot/CourseImages/c61cde3d-3227-4dca-954f-d66ab514780f.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Contracts/ICourseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Contracts/ICourseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/IResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/IResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/Result.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/CourseDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/CourseDto.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/ref/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/ref/BestCodder.Models.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/refint/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/refint/BestCodder.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Helper/IJSRuntimeExtention.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Helper/IJSRuntimeExtention.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CourseList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CourseList.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CreateOrUpdate.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CreateOrUpdate.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/ChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/ChildComponent.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/_Host.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Shared/NavMenu.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/_Imports.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" afterDir="false" />
@@ -102,7 +98,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19ee8d3ae517448b931523b9b440f949116800/b9/f3a1e4bb/RadzenGrid`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/308da95b4684df11ce2aed1874d76d9256f414737ea8b7afed39c1202c4a5c1/FileInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/513f10b0ecec73bbcae1c2bdfa684f7cecff89a462891a2f10a02fa17599/RenderMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/70357a534ccf132fd1ed9ff4099372ecee4fbfb24eb9b96d2c68e6ab7561b/Path.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e4aeff2964b57fa3d88b3b827c8344358321bf183055702dd3aed52b8f7c97/ComponentState.cs" root0="SKIP_HIGHLIGHTING" />
@@ -172,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661157653654</updated>
-      <workItem from="1661157660939" duration="31279000" />
+      <workItem from="1661157660939" duration="45729000" />
     </task>
     <servers />
   </component>
