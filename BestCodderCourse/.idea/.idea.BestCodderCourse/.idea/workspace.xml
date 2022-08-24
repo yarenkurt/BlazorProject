@@ -6,65 +6,516 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff041e-6aa1-48d9-8dc0-8b7303570298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Models/PageItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/Pagination.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/RadzenDataGridCourseList.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/RoutingComponent.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Service/FileUpload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Service/IFileUpload.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Radzen.Blazor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Linq.Dynamic.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/wwwroot/CourseImages/4e948b05-9a65-4877-88bc-6b36a4695805.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodderCourse/wwwroot/CourseImages/c61cde3d-3227-4dca-954f-d66ab514780f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/20220824133148_ChangedContext.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/20220824133148_ChangedContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/ScaffoldingReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/_LoginPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/MessagePack.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/MessagePack.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.Build.Locator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/.nupkg.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator.6.0.8.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator.6.0.8.nupkg.sha512" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/DotnetToolSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/MessagePack.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/MessagePack.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.AnalyzerUtilities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.Features.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.DiaSymReader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.DotNet.Scaffolding.Shared.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.VisualStudio.Debugger.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.DependencyResolver.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Frameworks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.LibraryModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Packaging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.ProjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Protocol.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/NuGet.Versioning.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/build/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/buildMultiTargeting/microsoft.visualstudio.web.codegeneration.tools.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/dotnet-aspnet-codegenerator.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/dotnet-aspnet-codegenerator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/dotnet-aspnet-codegenerator.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/dotnet-aspnet-codegenerator.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/dotnet-aspnet-codegenerator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/shims/win-x64/dotnet-aspnet-codegenerator.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/shims/win-x86/dotnet-aspnet-codegenerator.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/toolassets/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Msbuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/dotnet-aspnet-codegenerator/6.0.8/tools/net6.0/any/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/.store/dotnet-aspnet-codegenerator/6.0.8/restore.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse/obj/dotnet-aspnet-codegenerator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Contracts/ICourseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Contracts/ICourseRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/BestCodder.Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/BestCodder.Business.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/IResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/IResult.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/Result.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/BestCodder.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/BestCodder.DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/Data/BestCodderCourseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Data/BestCodderCourseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/BestCodderCourseContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/BestCodderCourseContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/BestCodder.DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/BestCodder.DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/App.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/App.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Helper/IJSRuntimeExtention.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Helper/IJSRuntimeExtention.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CourseList.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CourseList.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CreateOrUpdate.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/CoursePages/CreateOrUpdate.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/ChildComponent.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/ChildComponent.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/_Host.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/_Host.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Pages/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Pages/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Shared/NavMenu.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/_Imports.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Drawing.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Security.Permissions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Windows.Extensions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" afterDir="false" />
@@ -74,8 +525,6 @@
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/ref/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/ref/BestCodderCourse.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/refint/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/refint/BestCodderCourse.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/project.packagespec.json" afterDir="false" />
@@ -101,6 +550,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/19ee8d3ae517448b931523b9b440f949116800/b9/f3a1e4bb/RadzenGrid`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/308da95b4684df11ce2aed1874d76d9256f414737ea8b7afed39c1202c4a5c1/FileInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/513f10b0ecec73bbcae1c2bdfa684f7cecff89a462891a2f10a02fa17599/RenderMode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/601c3d2f1bfa958c0388e8435dc1543366d3c8c7f6abf4493861219f944812a/AuthorizeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/70357a534ccf132fd1ed9ff4099372ecee4fbfb24eb9b96d2c68e6ab7561b/Path.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
@@ -171,7 +621,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661157653654</updated>
-      <workItem from="1661157660939" duration="45729000" />
+      <workItem from="1661157660939" duration="50864000" />
     </task>
     <servers />
   </component>

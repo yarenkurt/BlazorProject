@@ -15,8 +15,8 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<BestCodderCourseContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<BestCodderCourseContext>();
+builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<BestCodderCourseContext>()
+    .AddDefaultTokenProviders().AddDefaultUI();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services
@@ -49,6 +49,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapRazorPages();
 app.MapControllers();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
