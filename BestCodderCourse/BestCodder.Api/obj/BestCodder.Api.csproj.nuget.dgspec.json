@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Api\\BestCodder.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Api\\BestCodder.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Api\\BestCodder.Api.csproj",
+        "projectName": "BestCodder.Api",
+        "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Api\\BestCodder.Api.csproj",
+        "packagesPath": "C:\\Users\\yaren\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj",
+        "projectName": "BestCodder.Business",
+        "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\BestCodder.Business.csproj",
+        "packagesPath": "C:\\Users\\yaren\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\BestCodder.Common.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\BestCodder.Common.csproj"
+              },
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj"
+              },
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\BestCodder.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\BestCodder.Common.csproj",
+        "projectName": "BestCodder.Common",
+        "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\BestCodder.Common.csproj",
+        "packagesPath": "C:\\Users\\yaren\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj",
+        "projectName": "BestCodder.DataAccess",
+        "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\yaren\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj",
+        "projectName": "BestCodder.Models",
+        "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj",
+        "packagesPath": "C:\\Users\\yaren\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yaren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

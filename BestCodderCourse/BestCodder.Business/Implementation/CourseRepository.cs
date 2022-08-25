@@ -41,16 +41,16 @@ public class CourseRepository : ICourseRepository
                 var updateCourse = _ctx.Courses.Update(course);
                 await _ctx.SaveChangesAsync();
                 var returnData = _mapper.Map<Course, CourseDto>(updateCourse.Entity);
-                return new Result<CourseDto>(true, ResultConstant.RecordUpdatedSuccessfully, returnData);
+                return new Result<CourseDto>(true, ResultConstant.RecordUpdateSuccessfully, returnData);
             }
             else
             {
-                return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+                return new Result<CourseDto>(false, ResultConstant.RecordUpdateNotSuccessfully);
             }
         }
         catch (Exception e)
         {
-           return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+           return new Result<CourseDto>(false, ResultConstant.RecordUpdateNotSuccessfully);
         }
     }
 
@@ -68,16 +68,16 @@ public class CourseRepository : ICourseRepository
                 var updateCourse = _ctx.Courses.Update(courseDetails);
                 await _ctx.SaveChangesAsync();
                 var returnData = _mapper.Map<Course, CourseDto>(updateCourse.Entity);
-                return new Result<CourseDto>(true, ResultConstant.RecordUpdatedSuccessfully, returnData);
+                return new Result<CourseDto>(true, ResultConstant.RecordUpdateSuccessfully, returnData);
             }
             else
             {
-                return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+                return new Result<CourseDto>(false, ResultConstant.RecordUpdateNotSuccessfully);
             }
         }
         catch (Exception e)
         {
-            return new Result<CourseDto>(false, ResultConstant.RecordUpdatedNotSuccessfully);
+            return new Result<CourseDto>(false, ResultConstant.RecordUpdateNotSuccessfully);
         }
     }
 
