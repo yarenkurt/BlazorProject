@@ -184,7 +184,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.DataAccess\\BestCodder.DataAccess.csproj"
+              },
+              "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj": {
+                "projectPath": "D:\\Projects\\2022\\BlazorProject\\BestCodderCourse\\BestCodder.Models\\BestCodder.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

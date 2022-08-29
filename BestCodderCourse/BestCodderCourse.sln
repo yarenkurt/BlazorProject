@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Business", "Best
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodder.Api", "BestCodder.Api\BestCodder.Api.csproj", "{1AFF9889-8CB2-4925-A1E6-087CDBA4B49F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestCodderCourse.Client", "BestCodderCourse.Client\BestCodderCourse.Client.csproj", "{9EF04B09-7869-4DB9-8B40-9D1F0B5222A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{1AFF9889-8CB2-4925-A1E6-087CDBA4B49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AFF9889-8CB2-4925-A1E6-087CDBA4B49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AFF9889-8CB2-4925-A1E6-087CDBA4B49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF04B09-7869-4DB9-8B40-9D1F0B5222A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF04B09-7869-4DB9-8B40-9D1F0B5222A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF04B09-7869-4DB9-8B40-9D1F0B5222A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF04B09-7869-4DB9-8B40-9D1F0B5222A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

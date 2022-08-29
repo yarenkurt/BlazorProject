@@ -10,3 +10,8 @@ D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\obj\Debug\net6
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\obj\Debug\net6.0\refint\BestCodder.Common.dll
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\obj\Debug\net6.0\BestCodder.Common.pdb
 D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\obj\Debug\net6.0\ref\BestCodder.Common.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\bin\Debug\net6.0\BestCodder.DataAccess.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\bin\Debug\net6.0\BestCodder.Models.dll
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\bin\Debug\net6.0\BestCodder.DataAccess.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\bin\Debug\net6.0\BestCodder.Models.pdb
+D:\Projects\2022\BlazorProject\BestCodderCourse\BestCodder.Common\obj\Debug\net6.0\BestCodder.Common.csproj.CopyComplete

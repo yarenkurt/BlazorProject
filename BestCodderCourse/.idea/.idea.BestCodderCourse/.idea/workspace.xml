@@ -5,129 +5,1105 @@
     <projectFile profileName="IIS Express">BestCodderCourse/BestCodderCourse.csproj</projectFile>
     <projectFile profileName="BestCodder.Api">BestCodder.Api/BestCodder.Api.csproj</projectFile>
     <projectFile profileName="IIS Express">BestCodder.Api/BestCodder.Api.csproj</projectFile>
+    <projectFile profileName="BestCodderCourse.Client">BestCodderCourse.Client/BestCodderCourse.Client.csproj</projectFile>
+    <projectFile profileName="IIS Express">BestCodderCourse.Client/BestCodderCourse.Client.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcff041e-6aa1-48d9-8dc0-8b7303570298" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/BestCodder.Api.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Controllers/CourseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Helper/ITokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Helper/TokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/AutoMapper.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.OpenApi.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/BestCodder.Api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/BestCodder.Api.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/BestCodder.Api.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.GlobalUsings.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/ref/BestCodder.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/refint/BestCodder.Api.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Models/SignInDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Models/UserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BestCodder.Models/UserRequestDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/BestCodderCourse/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Business/Contracts/ICourseOrderInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Business/CourseItemUrlResolver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseOrderInfoRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Data/CourseOrderInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/20220826081304_CourseOrderInfo.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/20220826081304_CourseOrderInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodder.Models/CourseOrderInfoDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/App.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/BestCodderCourse.Client.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Helper/IJSRuntimeExtention.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Pages/Counter.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Pages/CoursePages/CourseDetail.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Pages/CoursePages/CourseList.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Pages/FetchData.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Pages/Index.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Service/Contracts/ICourseOrderInfoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Service/Contracts/ICourseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Service/Implements/CourseOrderInfoService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Service/Implements/CourseService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Shared/MainLayout.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Shared/MainLayout.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Shared/NavMenu.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Shared/NavMenu.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/Shared/SurveyPrompt.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/_Imports.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodderCourse.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodderCourse.Client.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/BestCodderCourse.Client.staticwebassets.runtime.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.JSInterop.WebAssembly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.JSInterop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.VisualBasic.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Data.DataSetExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Formats.Asn1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.FileSystem.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Pipes.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Http.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Quic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.CoreLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.DataContractSerialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.Runtime.InteropServices.JavaScript.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.Uri.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Private.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Intrinsics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.OpenSsl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Channels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/dotnet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/dotnet.timezones.blat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/dotnet.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/icudt.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/icudt_CJK.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/icudt_EFIGS.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/icudt_no_CJK.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Common.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Common.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Common.pdb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.DataAccess.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.DataAccess.pdb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Models.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Models.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Models.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodder.Models.pdb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodderCourse.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodderCourse.Client.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodderCourse.Client.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/BestCodderCourse.Client.pdb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Forms.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Cryptography.Internal.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.CSharp.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Data.SqlClient.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.Relational.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.SqlServer.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.EntityFrameworkCore.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Caching.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Caching.Memory.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Binder.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.FileExtensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.Json.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Configuration.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.DependencyInjection.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Physical.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileProviders.Physical.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileSystemGlobbing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.FileSystemGlobbing.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Identity.Core.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Identity.Stores.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Logging.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Options.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Extensions.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Identity.Client.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.JsonWebTokens.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Logging.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Protocols.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.IdentityModel.Tokens.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.JSInterop.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.VisualBasic.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Registry.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Registry.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.SystemEvents.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Newtonsoft.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/Newtonsoft.Json.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.AppContext.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Buffers.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Concurrent.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Concurrent.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Immutable.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.NonGeneric.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.NonGeneric.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Specialized.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Specialized.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Collections.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.Annotations.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.DataAnnotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.DataAnnotations.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.EventBasedAsync.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.TypeConverter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.TypeConverter.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Configuration.ConfigurationManager.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Configuration.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Console.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Core.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.Common.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.DataSetExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.DataSetExtensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Data.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Contracts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Contracts.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Debug.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Debug.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.DiagnosticSource.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.FileVersionInfo.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Process.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Process.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.StackTrace.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.TextWriterTraceListener.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Tools.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Tools.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.TraceSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.TraceSource.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Tracing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Diagnostics.Tracing.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Common.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Drawing.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Dynamic.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Dynamic.Runtime.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Formats.Asn1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Formats.Asn1.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.Calendars.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Globalization.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.Brotli.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.Brotli.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.FileSystem.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.ZipFile.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.AccessControl.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.DriveInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.DriveInfo.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Watcher.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.Watcher.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.FileSystem.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.IsolatedStorage.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.IsolatedStorage.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.MemoryMappedFiles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.MemoryMappedFiles.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipelines.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.AccessControl.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.Pipes.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.UnmanagedMemoryStream.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.UnmanagedMemoryStream.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IO.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.IdentityModel.Tokens.Jwt.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Expressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Expressions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Parallel.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Queryable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Queryable.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Linq.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Memory.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.Json.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.HttpListener.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.HttpListener.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Mail.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Mail.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.NameResolution.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.NameResolution.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.NetworkInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.NetworkInformation.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Ping.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Ping.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Quic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Quic.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Requests.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Requests.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Security.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.ServicePoint.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.ServicePoint.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.Sockets.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebClient.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebHeaderCollection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebHeaderCollection.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebProxy.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebSockets.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebSockets.Client.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebSockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.WebSockets.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Net.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Numerics.Vectors.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Numerics.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ObjectModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ObjectModel.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.CoreLib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.CoreLib.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.DataContractSerialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.DataContractSerialization.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Runtime.InteropServices.JavaScript.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Runtime.InteropServices.JavaScript.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Uri.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Uri.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Xml.Linq.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Private.Xml.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.DispatchProxy.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.DispatchProxy.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.ILGeneration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.ILGeneration.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.Lightweight.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.Lightweight.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Emit.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Metadata.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.TypeExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.TypeExtensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Reflection.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.Reader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.Reader.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.ResourceManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.ResourceManager.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.Writer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Resources.Writer.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Caching.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.VisualC.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.CompilerServices.VisualC.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Handles.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Handles.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.InteropServices.RuntimeInformation.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.InteropServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.InteropServices.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Intrinsics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Intrinsics.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Loader.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Loader.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Numerics.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Numerics.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Formatters.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Json.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.Xml.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.Serialization.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Runtime.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.AccessControl.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Claims.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Claims.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Algorithms.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Cng.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Cng.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Csp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Csp.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Encoding.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.OpenSsl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.OpenSsl.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.Primitives.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.ProtectedData.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Permissions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Principal.Windows.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Principal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.Principal.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.SecureString.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.SecureString.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Security.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ServiceModel.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ServiceModel.Web.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ServiceProcess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ServiceProcess.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.CodePages.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encoding.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Encodings.Web.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.Json.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.RegularExpressions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Text.RegularExpressions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Channels.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Channels.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Overlapped.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Overlapped.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Dataflow.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Dataflow.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Parallel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.Parallel.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Tasks.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Thread.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Thread.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.ThreadPool.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.ThreadPool.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Timer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.Timer.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Threading.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.Local.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.Local.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Transactions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.ValueTuple.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Web.HttpUtility.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Web.HttpUtility.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Web.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Windows.Extensions.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Windows.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.Linq.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.Linq.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.ReaderWriter.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.Serialization.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.Serialization.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XDocument.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.XDocument.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XPath.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XmlDocument.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XmlSerializer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.XmlSerializer.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.Xml.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/System.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/WindowsBase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/WindowsBase.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/blazor.webassembly.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.5.kfahi9b5d2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.5.kfahi9b5d2.js.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.timezones.blat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.timezones.blat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.wasm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/dotnet.wasm.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_CJK.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_CJK.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_EFIGS.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_EFIGS.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_no_CJK.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/icudt_no_CJK.dat.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/mscorlib.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/mscorlib.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/netstandard.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/bin/Debug/net6.0/wwwroot/_framework/netstandard.dll.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/BestCodderCourse.Client.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/BestCodderCourse.Client.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/BestCodderCourse.Client.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/BestCodderCourse.Client.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+0gq2rf2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+3aOc8Uw.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+9t6ExIc.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+Io54Btc.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+OfkNrss.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+cjoEai+.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+rhVmmkH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+twLwNyH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+yO8Revw.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/+ynce+bR.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/0++uj0YH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/01OmmdWj.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/0iEyncLJ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/0sb2Qr7s.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/1mVykhTO.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/1p1s3sr5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/224yI5vT.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/22wLth3t.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/292WjBTL.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/2MONCQv5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/2ZsnPgH3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/2d7Mq+37.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/3tf6TCLm.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/41MLYJkn.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/4Slku8DB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/4bRNxA3x.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/4ooymQ18.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/4s1f6JHv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/5CwHax7t.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/5G9kJF1G.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/5Oo+87ee.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/681ao4vc.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/6fybgugv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/6n14o+b6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/7+EeS4gk.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/8AdW+hks.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/8uZUPpYV.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/9vfJ4C5F.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/A+OxJo+E.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/A8WFuNIg.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/AMiM7t71.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ASiLR+Df.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/AYW5xeSn.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Ai+X5yQz.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Ar+uoWr+.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/B+Ru7wIA.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/B4yC4m5h.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/BS2z1JXQ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Bp0LakMp.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/C1Meg3OT.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/C85xYZX6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/CRIvBba3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/CcRaPs4O.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Crge1rhM.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/DAGOJbUa.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/DK5P9wU4.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/E5Gh4kfP.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/EAtnFgfl.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/EHkJOKxW.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/EMnuOHqx.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/EyE9SSpd.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/F2wr8Wwd.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/F9cPYAzq.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/FdvhGb0L.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/FmtI41W2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/FsDSl6lv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/GJuy7h2F.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/GdshsgVm.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Gf65+7SL.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Gw7vuUUg.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/H35xzi+x.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/He9PpKm8.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/HiCedfQS.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IH221skG.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IJY+UpM2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IKmu99R1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ITcS+jSh.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IZiZHCPT.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IguDOXBU.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ImHMdFK6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/IsjexXyr.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/JIfs+GrY.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/JQfj3n+3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/JeRi8s5K.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/K8j4IY3W.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/KFUowsfo.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/KG9glmHM.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/KJdAn3tM.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Kc+Llr2J.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Kc2cSUo3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Kx1PFrts.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/KyKaMrn8.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/LGD8kqau.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/LRXUhUg7.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/LSYFi8Sv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/LX797phP.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Lt1BDk07.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/McwiWyZy.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Mm31x3dC.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/MqGJNl0V.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/NWKFAQGJ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/NYigvXYv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Nc1VWw6I.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ODcvLXpj.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/OPltUnIO.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/OiPOSk35.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/P01bzMeG.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/PeizBBh2.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Q40qY76o.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Q7qDuz6P.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/QDsYyADC.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/QYbmXZkP.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/R2G2nF+Z.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/RDX4eaOB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Rs6YbHQp.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/S5Efz4eI.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/T+XxcfZu.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/TElb5pmu.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/UAESn6ii.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/UGV272I1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/USCSs07Y.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/UfOn+glC.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Uj3CVod5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/V4nYu6YS.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/V6VLKtjo.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Vuas+p7C.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XOWcm66d.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XQrbrngy.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XcJJf6P9.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XiEONnOV.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XpnLmw3C.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/XqwzN67Q.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/YRgo9ElA.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/YwcEBeW6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ZE0aobih.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ZE84637w.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/Zt+YBkSt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/a50Ibc69.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/a53by6yF.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/aKRgT4Cb.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/aMhEhOwy.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/b9rvCBwN.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/bQlRVO5+.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/bZvhCsMv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/bsphWc5w.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/cRGKQtzv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/eUhBUpdE.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ek5OTpLe.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ev4AGNNp.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/f7YZtvDS.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/fsYNGR1Z.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/fw+Go9Hy.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/fx6LjSG1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/gDWYVBB3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/gWmPf3Hv.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/h08mEVVj.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/h97P5nU6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/hiLwktGB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/hkUeV72V.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/hll9G7K1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/i2Tqz1zQ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/iBsYJRJN.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/iGvT6a7P.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/iblKNgKF.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/jNs5EgkD.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/jVcZ+T49.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ja3GFA8t.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/jxB4piqC.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/k1FAZjVw.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/k1jHyW+G.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/k4cmLrP3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kCpZAfZ4.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kJhSmFmA.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kLRtgD2p.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kSwTekFH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kYf1Rxmo.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/kg0x2Eei.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/krhe+DJY.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/lZetqMwB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/lkjW9hfk.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/lsXBjkmm.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/m0f7JfGJ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/mFHXSBX7.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/mXFaCWgy.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/merFclj6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/mxPGcc33.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/mxrXumfo.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/nSUfeRU5.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ntkdNg5j.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/nz1f0WKP.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/o4AE32Y1.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/oj13uqG9.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/pDDvyeEE.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/qRGMKG65.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/qUTBvkQc.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/qcGK+aug.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/qpKWsJtX.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/rDrhOCWI.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/rJS9DpXZ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/rY2z4oq6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/rkX5GN1F.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/sGPnipDs.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/sI93aVd6.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ssT0ULkF.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/t8qfA3iZ.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ths0MGH4.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/tjUGSUsU.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/tlrdvyNw.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/twfze++c.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/tznRsJH9.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/uH4pI0l3.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ufMV9QM+.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/ujlMstOY.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/v+vUYRNX.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/vAG2oA7+.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/vSlHZx4y.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/vpzP764T.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/w55LvbTH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/wU+++UV0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/wz5ii1tk.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/x2VpRxMe.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/x5jDVxOC.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/xHezgalR.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/xJ2Hgt3q.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/xMlCXrNB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/xg+Un+uu.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/yHnVSXxH.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/yeeyJ8vp.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/zBltzJEF.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/zElxZYBt.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/zH58d8kg.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/build-gz/zRx02LpB.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/ref/BestCodderCourse.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/refint/BestCodderCourse.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/scopedcss/bundle/BestCodderCourse.Client.styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/scopedcss/projectbundle/BestCodderCourse.Client.bundle.scp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/FONT-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/ICON-LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/fonts/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/fonts/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/fonts/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/open-iconic/font/fonts/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/icon-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/sample-data/weather.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BestCodderCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Implementation/CourseRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/Controllers/CourseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/Controllers/CourseController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/BestCodder.Api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/BestCodder.Api.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/BestCodder.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/ref/BestCodder.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/ref/BestCodder.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/refint/BestCodder.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/Debug/net6.0/refint/BestCodder.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/Mapper/MappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/Mapper/MappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/BestCodder.Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/BestCodder.Business.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/ref/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/Debug/net6.0/refint/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Business/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/BestCodder.Common.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/BestCodder.Common.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/ResultConstant.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/BestCodder.Common.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/BestCodder.Common.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/ref/BestCodder.Common.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Debug/net6.0/refint/BestCodder.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/Release/net6.0/BestCodder.Common.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/Release/net6.0/BestCodder.Common.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/Data/BestCodderCourseContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Data/BestCodderCourseContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/BestCodderCourseContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/Migrations/BestCodderCourseContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/ref/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/Debug/net6.0/refint/BestCodder.DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.DataAccess/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
@@ -138,9 +1114,25 @@
       <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/refint/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/Debug/net6.0/refint/BestCodder.Models.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodder.Models/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse.sln" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Login.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Business.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodder.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/bin/Debug/net6.0/BestCodderCourse.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/BestCodderCourse.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/Debug/net6.0/BestCodderCourse.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestCodderCourse/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/BestCodderCourse/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,9 +1161,11 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/70357a534ccf132fd1ed9ff4099372ecee4fbfb24eb9b96d2c68e6ab7561b/Path.Windows.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6354d55b4c1fdbe22621ea48185af62cdeadcf4f28d9ed0890dfdf36c6/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca860fea1234fdab4474cfa1911d325a886a3e2e7692197955e531a9eb8e081/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e4aeff2964b57fa3d88b3b827c8344358321bf183055702dd3aed52b8f7c97/ComponentState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/efb0cff445c0afb8b2309beebe2155523d7abfa92d73f5a1b714374524ccd4/ModelStateDictionary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BestCodderCourse.Client/wwwroot/css/bootstrap/bootstrap.min.css.map" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BestCodderCourse/Pages/TrainingBlazor/TrainingBlazorComponent/Lifecycle.razor" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -187,19 +1181,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeLensConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.BestCodder.Api: IIS Express">
+}</component>
+  <component name="RunManager" selected="Compound.BlazorProject">
+    <configuration name="BlazorProject" type="CompoundRunConfigurationType">
+      <toRun name="BestCodder.Api: IIS Express" type="LaunchSettings" />
+      <toRun name="BestCodderCourse" type="LaunchSettings" />
+      <toRun name="BestCodderCourse.Client" type="LaunchSettings" />
+      <method v="2" />
+    </configuration>
     <configuration name="BestCodderCourse" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
@@ -217,6 +1217,36 @@
     </configuration>
     <configuration name="BestCodderCourse: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BestCodderCourse/BestCodderCourse.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BestCodderCourse.Client" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BestCodderCourse.Client/BestCodderCourse.Client.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="BestCodderCourse.Client" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="BestCodderCourse.Client: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BestCodderCourse.Client/BestCodderCourse.Client.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
       <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -260,6 +1290,15 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.BestCodder.Api" />
+      <item itemvalue=".NET Launch Settings Profile.BestCodder.Api: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.BestCodderCourse" />
+      <item itemvalue=".NET Launch Settings Profile.BestCodderCourse.Client" />
+      <item itemvalue=".NET Launch Settings Profile.BestCodderCourse.Client: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.BestCodderCourse: IIS Express" />
+      <item itemvalue="Compound.BlazorProject" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -269,7 +1308,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661157653654</updated>
-      <workItem from="1661157660939" duration="67893000" />
+      <workItem from="1661157660939" duration="71772000" />
+      <workItem from="1661432485457" duration="23086000" />
     </task>
     <servers />
   </component>

@@ -25,24 +25,26 @@ builder.Services.AddAuthentication(opt =>
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     opt.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(x =>
-{
-    x.RequireHttpsMetadata = false;
-    x.SaveToken = true;
-    x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"])),
-        ValidateAudience = true,
-        ValidateIssuer = true,
-        ValidAudience = _config["Token:Audience"],
-        ValidIssuer = _config["Token:Issuer"],
-        ClockSkew = TimeSpan.Zero
-    };
 });
+//     .AddJwtBearer(x =>
+// {
+//     x.RequireHttpsMetadata = false;
+//     x.SaveToken = true;
+//     x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+//     {
+//         ValidateIssuerSigningKey = true,
+//         IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"])),
+//         ValidateAudience = true,
+//         ValidateIssuer = true,
+//         ValidAudience = _config["Token:Audience"],
+//         ValidIssuer = _config["Token:Issuer"],
+//         ClockSkew = TimeSpan.Zero
+//     };
+// });
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddScoped<ICourseRepository,CourseRepository>();
+builder.Services.AddScoped<ICourseOrderInfoRepository,CourseOrderInfoRepository>();
 builder.Services.AddScoped<ITokenService,TokenService>();
 
 builder.Services.AddCors(o => o.AddPolicy("BestCodderCourse", builder =>

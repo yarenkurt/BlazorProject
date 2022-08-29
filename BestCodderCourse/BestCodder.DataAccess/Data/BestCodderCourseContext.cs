@@ -11,5 +11,6 @@ public class BestCodderCourseContext : IdentityDbContext
     }
 
     public DbSet<Course> Courses { get; set; }
+    public DbSet<CourseOrderInfo> CourseOrderInfos { get; set; }
 
 }

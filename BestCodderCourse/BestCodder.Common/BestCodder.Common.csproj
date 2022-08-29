@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\BestCodder.DataAccess\BestCodder.DataAccess.csproj" />
+      <ProjectReference Include="..\BestCodder.Models\BestCodder.Models.csproj" />
+    </ItemGroup>
+
 </Project>

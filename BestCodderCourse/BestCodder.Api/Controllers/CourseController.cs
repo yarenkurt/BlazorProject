@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 namespace BestCodder.Api.Controllers;
 
 [Route("api/[controller]")]
-[Authorize]
 public class CourseController : Controller
 {
     private readonly ICourseRepository _courseRepository;

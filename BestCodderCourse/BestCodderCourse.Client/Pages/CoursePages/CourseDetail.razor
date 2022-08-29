@@ -1,0 +1,122 @@
+﻿@page "/courseDetail/{Id:int}"
+
+@inject ICourseService _courseService
+@inject ICourseOrderInfoService _courseOrderInfo
+
+<br />
+<br />
+<br />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="project-info-box mt-0">
+                <h3>@CourseOrderDto.Title</h3>
+                <br />
+                <h5>@CourseOrderDto.SubTitle</h5>
+                <p class="mb-0">
+                    @CourseOrderDto.CourseDto?.Description
+                </p>
+            </div><!-- / project-info-box -->
+            <br />
+            <div class="project-info-box">
+                <p style="display:inline-block;"><b>Name:</b> @CourseOrderDto.CourseDto?.CreatedBy</p>
+                <br />
+                <p style="display:inline-block;"><b>Create Date:</b> @CourseOrderDto.CourseDto?.CreatedDate</p>
+                <br />
+                <p style="display:inline-block;"><b>Created BY:</b> @CourseOrderDto.CourseDto?.CreatedBy</p>
+                <br />
+                <p style="display:inline-block;"><b>Record Count</b> @CourseOrderDto.CourseDto?.TotalCount</p>
+                <br />
+                <p class="mb-0" style="display:inline-block;"><b>Price:</b> @CourseOrderDto?.CoursePrice</p>
+                <br />
+            </div><!-- / project-info-box -->
+            <br />
+            <br />
+        </div>
+
+        <div class="col-md-4" style="border-left: 6px solid white;">
+            <div class="row px-2 text-success border-bottom"><div class="col-7 py-1"><p style="font-size:x-large;margin:0px;">Enter Details</p></div></div>
+
+            <EditForm Model="CourseOrderDto" class="container" OnValidSubmit="HandleGoCheckout">
+                <div class="form-group pt-2">
+                    <label class="text-warning">Name</label>
+                    <InputText @bind-Value="CourseOrderDto.Name" type="text" class="form-control" />
+                </div>
+                <div class="form-group pt-2">
+                    <label class="text-warning">Course Price</label>
+                    <InputNumber @bind-Value="CourseOrderDto.CoursePrice" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label class="text-warning">Email</label>
+                    <InputText @bind-Value="CourseOrderDto.Email" type="text" class="form-control" />
+                </div>
+                <div class="card-body">
+                    <button type="submit" class="btn btn-success form-control">Buy Course</button>
+                </div>
+            </EditForm>
+            <p>@ErrorMessage</p>
+        </div>
+    </div>
+</div>
+<br />
+<br />
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    public string ErrorMessage { get; set; }
+
+    public CourseOrderInfoDto CourseOrderDto { get; set; } = new CourseOrderInfoDto();
+    
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            if (Id != null)
+            {
+                var data = await _courseService.GetCourse(Id);
+                CourseOrderDto.CourseDto = data.Data;
+                CourseOrderDto.CourseId = data.Data.Id;
+                CourseOrderDto.CoursePrice = data.Data.CoursePrice;
+                CourseOrderDto.UserId = data.Data.CreatedBy;
+                CourseOrderDto.CourseDto.Description = data.Data.Description;
+            }
+        }
+        catch (Exception e)
+        {
+            ErrorMessage = e.Message;
+        }
+    }
+    private async Task HandleGoCheckout()
+    {
+        if (!await HandleValidation())
+            return;
+    //stripe payment operations
+    }
+
+    private async Task<bool> HandleValidation()
+    {
+        if (string.IsNullOrEmpty(CourseOrderDto.Name))
+        {
+            ErrorMessage += " Name not empty \n ";
+            return false;
+        }
+        if (CourseOrderDto.CoursePrice <= 0)
+        {
+            ErrorMessage += " price must be greater than zero \n ";
+            return false;
+        }
+        if (string.IsNullOrEmpty(CourseOrderDto.Email))
+        {
+            ErrorMessage += "Email not empty";
+            return false;
+        }
+        return true;
+    }
+
+}
